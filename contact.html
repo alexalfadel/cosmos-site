@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+    <html lang="en-US">
+        <head>
+            <meta charset="utf-8">
+            <title>Contact Cosmo</title>
+            <link rel="stylesheet" type="text/css" href="style.css">
+        </head>
+        <body>
+            <header>
+                <h1 id="header">Cosmo</h1>
+            </header>
+            <div class="navBar">
+                <a href="index.html">Home</a>
+                <a href="list.html">Cosmo's favorites</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact Cosmo</a>
+            </div>
+
+            <div class="form">
+                <form action="/form-handling-url" method="post">
+                    <fieldset>
+                        <legend id="legend">Contact Cosmo</legend>
+
+                        <div>
+                            <label for="fullName">Full name:</label>
+                            <input type="text" id="fullName" name="full_name">
+                        </div>
+
+                        <div>
+                            <label for="dogsName">Dog's name:</label>
+                            <input type="text" id="dogsName" name="dogs_name">
+                        </div>
+
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="emailAddress">
+                        </div>
+
+                        <div>
+                            <label for="message">How can Cosmo help?</label>
+                            <textarea id="message"></textarea>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="newsletter" name="newsletter_enroll">
+                            <label for="newsletter">I would like to receive Cosmo's newsletter</label>
+                        </div>
+
+                        <div>
+                            <button id="button" type="submit">Submit</button>
+                        </div>
+
+                    </fieldset>
+                </form>
+            </div>
+
+        </body>
+    </html>
